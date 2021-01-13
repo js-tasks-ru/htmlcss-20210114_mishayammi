@@ -1,32 +1,24 @@
-*
-{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-header
+.cap
 {
     background-color: rgb(72, 75, 253);
-    height: 200px;
+    font-size: 22px;
+    height: 160px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
-    font-size: 36px;
     text-align: center;
-
- 
 }
 
 
 nav
 {
-    background-color: brown;
-    height: 50%;
+    background-color: rgb(170, 49, 33);
+    height: 30%;
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,50 +27,42 @@ nav
 
 body
 {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: cornsilk;
-
+    margin: 0;
 }
 
-footer
+.basement
 {
     background-color: tomato;
-    position: absolute;
     height: 100px;
     width: 100%;
-    bottom: 0;
-    left: 0;
     font-size: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
 }
 
-article
+.news_block
 {
     background-color: yellowgreen;
-    height: 240px;
-    margin: 5px;
+    height: 230px;
+    margin: 20px;
     position: relative;
-    top: 200px;
+    top: 160px;
 }
 
-h1
-{
-font-size: 42px;
-}
 
-h2
-{
-    position: absolute;
+.h2_list
+{ 
     font-size: 30px;
-    top: 5px;
-    left: 25px;
+    padding: 20px; 
 }
 
-.spisok
+.list
 {
-    position: absolute;
-    top: 70px;
+    top: 80px;
     left: 20px;
 }
-
