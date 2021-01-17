@@ -5,23 +5,20 @@
     font-size: 22px;
     height: 160px;
     width: 100%;
-    position: fixed;
-    top: 0;
     text-align: center;
 }
 
 
-nav
+.inform 
 {
     background-color: rgb(170, 49, 33);
-    height: 30%;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 50px;
 }
 
 
@@ -35,14 +32,12 @@ body
 .basement
 {
     background-color: tomato;
-    height: 100px;
+    height: 105px;
     width: 100%;
     font-size: 36px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
+    justify-content: center;  
 }
 
 .news_block
@@ -50,10 +45,12 @@ body
     background-color: yellowgreen;
     height: 230px;
     margin: 20px;
-    position: relative;
-    top: 160px;
 }
 
+.h1_header 
+{
+    margin: 0px;
+}
 
 .h2_list
 { 
@@ -61,8 +58,4 @@ body
     padding: 20px; 
 }
 
-.list
-{
-    top: 80px;
-    left: 20px;
-}
+
