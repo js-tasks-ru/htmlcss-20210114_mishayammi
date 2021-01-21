@@ -3,3 +3,54 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.body
+{
+    margin: 0;
+    width: 1440px;
+}
+
+.header
+{
+    height: 237px;
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    padding-left: 160px;
+}
+
+
+.main
+{
+    height: 1036px;
+    background-color: #F9FAFC;
+}
+
+.footer
+{
+    height: 384px;
+}
+
+.h1__header
+{
+    font-size: 50px;
+    margin: 0;
+}
+
+.h2__footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 38px;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.p__footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
