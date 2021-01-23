@@ -19,7 +19,6 @@
     padding-left: 160px;
 }
 
-
 .main
 {
     height: 1036px;
@@ -31,13 +30,13 @@
     height: 384px;
 }
 
-.h1__header
+.header__h1
 {
     font-size: 50px;
     margin: 0;
 }
 
-.h2__footer
+.footer__h2
 {
     display: flex;
     align-items: center;
@@ -47,7 +46,7 @@
     padding-top: 70px;
 }
 
-.p__footer
+.footer__p
 {
     display: flex;
     align-items: center;
