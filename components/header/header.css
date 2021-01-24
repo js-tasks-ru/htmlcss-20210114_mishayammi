@@ -1,0 +1,15 @@
+.header
+{
+    height: 237px;
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    padding-left: 160px;
+}
+
+.header__title
+{
+    font-size: 50px;
+    margin: 0;
+}
+

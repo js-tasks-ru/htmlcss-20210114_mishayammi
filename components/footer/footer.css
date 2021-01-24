@@ -1,0 +1,22 @@
+.footer
+{
+    height: 384px;
+}
+
+.footer__title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 38px;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.footer__paragraph
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
