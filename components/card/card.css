@@ -1,0 +1,27 @@
+.container-main
+{
+height: 1036px;
+background-color: #F9FAFC;
+padding-top: 68px;
+padding-bottom: 204px;
+overflow: hidden;
+}
+
+.container-flex
+{
+display: flex;
+flex-wrap: wrap;
+margin: -15px;
+}
+
+.container-flex__card
+{
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 350px;
+height: 367px;
+background: rgb(101, 101, 240);
+box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+border-radius: 12px;
+margin: 15px;
+}
