@@ -1,15 +1,14 @@
 .header
 {
-    height: 237px;
     display: flex;
-    align-items: center;
-    justify-content: left; 
-    padding-left: 160px;
 }
 
 .header__title
 {
     font-size: 50px;
+    padding-left: 160px;
+    padding-top: 96px;
+    padding-bottom: 77px;
     margin: 0;
 }
 

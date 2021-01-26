@@ -1,22 +1,21 @@
-.footer
-{
-    height: 384px;
-}
 
-.footer__title
+.footer-content
 {
     display: flex;
-    align-items: center;
-    justify-content: center;  
+    width: 640px;
+    flex-direction: column; 
+}
+
+.footer-content__title
+{
+    padding-top: 72px;
     font-size: 38px;
-    margin: 0;
-    padding-top: 70px;
+    margin: auto;
 }
 
-.footer__paragraph
+.footer-content__paragraph
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+    margin: auto;
+    padding-bottom: 136px;
 }
 
