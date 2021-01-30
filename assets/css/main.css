@@ -3,49 +3,42 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--background-light);
 }
 
 :root
 {
---background-light: #fff;
---background-page-light: #F9FAFC;
---card-light: #fff;
---histogram-bar-light: #4263EB;
---font-color-light: black;
+    --main-background-light: #fff;
+    --border-line-light: 1px solid #ACB5BD;
+    --live-elements-light: #4263EB;
+    --live-elements-hover-light: #2342C0;
+    --live-elements-disables-light: rgba(66, 99, 235, 0.5);
 
-
---button-primary-light: #4263EB;
---button-primary-hover-light: #2342C0;
---button-primary-disabled-light: rgba(66, 99, 235, 0.5);
-
---button-secondary-light: #2342C0;
---button-secondary-hover-light: #5028C6;
---button-secondary-disabled-light: rgba(112, 72, 232, 0.5);
-
---button-alternate-light: 1px solid #ACB5BD;
---button-secondary-hover-light: #E5E5E5;
---button-secondary-disabled-light: rgba(172, 181, 189, 0.5);
-
---accordion-background-light: #FFF;
---accordion-border-light: 1px solid #ACB5BD;
-
---sceleton-border-light: 1px solid #ACB5BD;
---sceleton-border-line-light: gray;
-
-
+/**  
+    Заливка линий. она же временная? 
+*/
+    --background-line-light: gray;
 
 /**
---background-dark:
---background-page-dark:
---card-dark:
---histogram-dark:
---button-dark:
---font-color-dark:
---accordion-background-dark
---accordion-border-dark
---sceleton-border-dark:
---sceleton-line-dark:
+     
+    Подберу цвета для темной темы позже.
+    
+    --main-background-dark:
+    --border-line-dark: 
+    --background-card-page-dark:
+    --background-line-dark:
+
+    Фиолетовая кнопка к темной теме, если я правильно понял.
 */
+
+    --live-elements-dark: #7048E8;
+    --live-elements-hover-dark: #5028C6;
+    --live-elements-disables-dark: rgba(66, 99, 235, 0.5);
+
+/**
+
+У кнопки alternate пока указал по-старому, так как непонятно, куда она.
+
+*/
+
 
 }

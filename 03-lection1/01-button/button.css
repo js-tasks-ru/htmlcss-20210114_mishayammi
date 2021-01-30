@@ -13,49 +13,49 @@
 
 .button_type_primary
 {
-    background: var(--button-primary-light);
+    background: var(--live-elements-light);
 }
 
 .button_type_primary:hover
 {
-    background: var(--button-primary-hover-light);
+    background: var(--live-elements-hover-light);
 }
 
 .button_type_primary:disabled
 {
-    background: var(--button-primary-disabled-light); 
+    background: var(--live-elements-disables-light); 
     cursor: not-allowed;
 }
 
 
 .button_type_secondary
 {
-    background: var(--button-secondary-light);
+    background: var(--live-elements-dark);
 }
 
 .button_type_secondary:hover
 {
-    background: var(--button-secondary-hover-light)
+    background: var(--live-elements-hover-dark)
 }
 
 .button_type_secondary:disabled
 {
-    background: var(--button-secondary-disabled-light);
+    background: var(--live-elements-disables-dark);
     cursor: not-allowed;
 }
 
 .button_type_alternate
 {
-    border: var(--button-alternate-light);
+    border: var(--border-line-light);
 }
 
 .button_type_alternate:hover
 {
-    background: var(--button-secondary-hover-light);
+    background: #E5E5E5;
 }
 
 .button_type_alternate:disabled
 {
-    background: var(--button-secondary-disabled-light);
+    background: rgba(172, 181, 189, 0.5);
     cursor: not-allowed;
 }

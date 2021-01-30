@@ -8,8 +8,8 @@
 .accordion__item
 {
     border-radius: 8px;
-    background: var(--accordion-background-light);
-    border: var(--accordion-border-light);
+    background: var(--main-background-light);
+    border: var(--border-line-light);
     margin-bottom: 8px;
     padding: 8px;
     font-size: 16px;

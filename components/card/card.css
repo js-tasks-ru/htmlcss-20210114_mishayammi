@@ -1,7 +1,16 @@
+
+:root
+
+{
+    --background-card-page-light: #F9FAFC;
+    --background-card-light: #FFFFFF;
+}
+
+
 .container-main
 {
 height: 1036px;
-background-color: var(--background-page-light);
+background-color: var(--background-card-page-light);
 padding-top: 68px;
 padding-bottom: 204px;
 overflow: hidden;
@@ -12,7 +21,7 @@ overflow: hidden;
 display: flex;
 flex-wrap: wrap;
 margin: -15px;
-background-color: var(--background-page-light);
+background-color: var(--background-card-page-light);
 }
 
 .container-flex__card
@@ -21,7 +30,7 @@ flex-grow: 1;
 flex-shrink: 1;
 flex-basis: 350px;
 height: 367px;
-background: var(--card-light);
+background: var(--background-card-light);
 box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 border-radius: 12px;
 margin: 15px;
