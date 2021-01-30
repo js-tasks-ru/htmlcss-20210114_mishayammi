@@ -30,6 +30,10 @@
 --accordion-background-light: #FFF;
 --accordion-border-light: 1px solid #ACB5BD;
 
+--sceleton-border-light: 1px solid #ACB5BD;
+--sceleton-border-line-light: gray;
+
+
 
 /**
 --background-dark:
@@ -40,6 +44,8 @@
 --font-color-dark:
 --accordion-background-dark
 --accordion-border-dark
+--sceleton-border-dark:
+--sceleton-line-dark:
 */
 
 }

@@ -1,6 +1,6 @@
 .sceleton
 {
-    border: 1px solid #ACB5BD;
+    border: var(--sceleton-border-light);
     border-radius: 8px;
     width: 579px;
 }
@@ -13,7 +13,7 @@
 
 .sceleton__circle 
 {
-    border: 1px solid #ACB5BD;
+    border: var(--sceleton-border-light);
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -44,7 +44,7 @@
 {
     height: 20px;
     width: 172px;
-    background: gray;
+    background: var(--sceleton-border-line-light);
     margin: 32px auto 4px 16px;
 }
 
@@ -52,7 +52,7 @@
 {
     height: 20px;
     width: 257px;
-    background: gray;
+    background: var(--sceleton-border-line-light);
     margin: 4px auto 8px 16px;
 }
 
@@ -60,7 +60,7 @@
 {
     height: 20px;
     width: 515px;
-    background: gray;
+    background: var(--sceleton-border-line-light);
     margin: 8px 40px 32px 24px;
 }
 
