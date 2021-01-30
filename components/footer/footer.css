@@ -1,19 +1,18 @@
-
-.footer-content
+.footer
 {
     display: flex;
     width: 640px;
     flex-direction: column; 
 }
 
-.footer-content__title
+.footer__title
 {
     padding-top: 72px;
     font-size: 38px;
     margin: auto;
 }
 
-.footer-content__paragraph
+.footer__paragraph
 {
     margin: auto;
     padding-bottom: 136px;

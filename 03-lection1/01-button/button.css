@@ -13,53 +13,49 @@
 
 .button_type_primary
 {
-    background: #4263EB;
-    
+    background: var(--button-primary-light);
 }
 
 .button_type_primary:hover
 {
-    background: #2342C0;
+    background: var(--button-primary-hover-light);
 }
 
 .button_type_primary:disabled
 {
-    background: #4263EB;
-    opacity: 0.5;
+    background: var(--button-primary-disabled-light); 
     cursor: not-allowed;
 }
 
 
 .button_type_secondary
 {
-    background: #7048E8;
+    background: var(--button-secondary-light);
 }
 
 .button_type_secondary:hover
 {
-    background: #5028C6;
+    background: var(--button-secondary-hover-light)
 }
 
 .button_type_secondary:disabled
 {
-    background: #7048E8;
-    opacity: 0.5;
+    background: var(--button-secondary-disabled-light);
     cursor: not-allowed;
 }
 
 .button_type_alternate
 {
-    border: 1px solid #ACB5BD;
+    border: var(--button-alternate-light);
 }
 
 .button_type_alternate:hover
 {
-    background: #E5E5E5
+    background: var(--button-secondary-hover-light);
 }
 
 .button_type_alternate:disabled
 {
-    background: #ACB5BD;
-    opacity: 0.5;
+    background: var(--button-secondary-disabled-light);
     cursor: not-allowed;
 }

@@ -3,12 +3,11 @@
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     width: 579px;
-    height: 192px;
 }
 
 .sceleton__top-box
 {
-    height: 96px;
+    height: 50%;
     display: flex;
 }
 
@@ -18,8 +17,7 @@
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    margin-top: 24px;
-    margin-left: 24px;
+    margin: 24px 0 0 24px;
 }
 
 .sceleton__top-box-left-side
@@ -33,12 +31,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .sceleton__buttom-box
 {
-    height: 96px;
+    height: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +45,7 @@
     height: 20px;
     width: 172px;
     background: gray;
-    margin: 32px 0 8px 16px;
+    margin: 32px auto 4px 16px;
 }
 
 .sceleton__line-medium
@@ -56,7 +53,7 @@
     height: 20px;
     width: 257px;
     background: gray;
-    margin-left: 16px;
+    margin: 4px auto 8px 16px;
 }
 
 .sceleton__line-large
@@ -64,8 +61,11 @@
     height: 20px;
     width: 515px;
     background: gray;
-    margin: 8px 40px 8px 24px;
-    
-    
+    margin: 8px 40px 32px 24px;
+}
+
+.sceleton__line-large:first-child
+{
+    margin-bottom: 8px;
 }
 
