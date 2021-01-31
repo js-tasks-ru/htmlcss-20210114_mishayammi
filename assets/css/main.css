@@ -7,38 +7,39 @@
 
 :root
 {
-    --main-background-light: #fff;
-    --border-line-light: 1px solid #ACB5BD;
-    --live-elements-light: #4263EB;
-    --live-elements-hover-light: #2342C0;
-    --live-elements-disables-light: rgba(66, 99, 235, 0.5);
+    /** Основной фон */
 
-/**  
-    Заливка линий. она же временная? 
-*/
-    --background-line-light: gray;
+    --main-light: #fff;
+    --main-dark: #black;
 
-/**
-     
-    Подберу цвета для темной темы позже.
+    /** Кнопок, график гистограммы, всплывашки */
+
+    --accent-light: #4263EB;
+    --accent-hover-light: #2342C0;
+    --accent-disables-light: rgba(66, 99, 235, 0.5);
+    --accent-dark: #7048E8;
+    --accent-hover-dark: #5028C6;
+    --accent-disables-dark: rgba(66, 99, 235, 0.5);
+
+     /** Фон тела страницы компонента, карточек */
+
+    --secondary-light: #F9FAFC;
+    --secondary-dark: #495057;
+
+    /** Фон карточек */
+
+    --informative-light: #fff;
+    --informative-dark: #ACB5BD;
+
+    /** Контур */
     
-    --main-background-dark:
-    --border-line-dark: 
-    --background-card-page-dark:
-    --background-line-dark:
+    --define-light: 1px solid #ACB5BD;
+    --define-dark: 1px solid #5028C6;
 
-    Фиолетовая кнопка к темной теме, если я правильно понял.
-*/
-
-    --live-elements-dark: #7048E8;
-    --live-elements-hover-dark: #5028C6;
-    --live-elements-disables-dark: rgba(66, 99, 235, 0.5);
-
-/**
-
-У кнопки alternate пока указал по-старому, так как непонятно, куда она.
-
-*/
-
-
+    /**  
+    Заливка линий скелетона
+    */
+    
+    --waiting-light: gray;
+    --waiting-dark: gray;
 }

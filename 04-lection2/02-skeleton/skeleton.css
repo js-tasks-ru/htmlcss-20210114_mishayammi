@@ -1,6 +1,6 @@
 .sceleton
 {
-    border: var(--border-line-light);
+    border: var(--define-light);
     border-radius: 8px;
     width: 579px;
 }
@@ -13,8 +13,8 @@
 
 .sceleton__circle 
 {
-    border: var(--border-line-light);
-    background: var(--background-line-light);
+    border: var(--define-light);
+    background: var(--waiting-light);
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -45,8 +45,8 @@
 {
     height: 20px;
     width: 172px;
-    border: var(--border-line-light);
-    background: var(--background-line-light);
+    border: var(--define-light);
+    background: var(--waiting-light);
     margin: 32px auto 4px 16px;
 }
 
@@ -54,8 +54,8 @@
 {
     height: 20px;
     width: 257px;
-    border: var(--border-line-light);
-    background: var(--background-line-light);
+    border: var(--define-light);
+    background: var(--waiting-light);
     margin: 4px auto 8px 16px;
 }
 
@@ -63,8 +63,8 @@
 {
     height: 20px;
     width: 515px;
-    border: var(--border-line-light);
-    background: var(--background-line-light);
+    border: var(--define-light);
+    background: var(--waiting-light);
     margin: 8px 40px 32px 24px;
 }
 

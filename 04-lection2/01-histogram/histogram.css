@@ -1,7 +1,7 @@
 
 .histogram
 {
-    border: var(--border-line-light);
+    border: var(--define-light);
     border-radius: 5px;
     width: 354px;
 }
@@ -15,7 +15,7 @@
 
 .histogram__bar
 {
-    background-color: var(--live-elements-light);
+    background-color: var(--accent-light);
     margin-left: 1px;
     margin-right: 1px;
     align-self: flex-end;
@@ -61,7 +61,7 @@
 .histogram__top-box-right
 {
     width: 50%;
-    color: var(--live-elements-light);
+    color: var(--accent-light);
     display: flex;
     flex-direction: row-reverse;
 }

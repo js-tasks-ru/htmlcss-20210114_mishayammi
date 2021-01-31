@@ -13,40 +13,40 @@
 
 .button_type_primary
 {
-    background: var(--live-elements-light);
+    background: var(--accent-light);
 }
 
 .button_type_primary:hover
 {
-    background: var(--live-elements-hover-light);
+    background: var(--accent-hover-light);
 }
 
 .button_type_primary:disabled
 {
-    background: var(--live-elements-disables-light); 
+    background: var(--accent-disables-light); 
     cursor: not-allowed;
 }
 
 
 .button_type_secondary
 {
-    background: var(--live-elements-dark);
+    background: var(--accent-dark);
 }
 
 .button_type_secondary:hover
 {
-    background: var(--live-elements-hover-dark)
+    background: var(--accent-hover-dark);
 }
 
 .button_type_secondary:disabled
 {
-    background: var(--live-elements-disables-dark);
+    background: var(--accent-disables-dark);
     cursor: not-allowed;
 }
 
 .button_type_alternate
 {
-    border: var(--border-line-light);
+    border: var(--define-light);
 }
 
 .button_type_alternate:hover
