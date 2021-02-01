@@ -1,0 +1,73 @@
+@import './normalize.css';
+@import '../fonts/fonts.css';
+
+html, body
+{
+    height: 100%;
+}
+
+.page
+{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    row-gap: 36px;
+    background-color: var(--secondary-light);
+}
+
+.page__main
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    max-width: 1100px;
+    column-gap: 56px;
+    margin-left: 165px;
+}
+
+.page__header
+{
+    height: 82px;
+    background-color: var(--main-light);
+}
+
+.page__footer
+{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.menu
+{
+    width: 229px;
+    background-color: var(--secondary-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.component
+{
+   background-color: var(--informative-light);
+   box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+   border-radius: 12px;
+}
+
+.menu__title
+{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.menu__item
+{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.menu__item:last-child
+{
+    margin-top: 30px;
+}

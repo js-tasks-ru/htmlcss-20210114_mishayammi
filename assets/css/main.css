@@ -10,16 +10,16 @@
     /** Основной фон */
 
     --main-light: #fff;
-    --main-dark: #black;
+    --main-dark: black;
 
     /** Кнопок, график гистограммы, всплывашки */
 
     --accent-light: #4263EB;
     --accent-hover-light: #2342C0;
-    --accent-disables-light: rgba(66, 99, 235, 0.5);
+    --accent-disables-light: #4263EB opacity 0.5;
     --accent-dark: #7048E8;
     --accent-hover-dark: #5028C6;
-    --accent-disables-dark: rgba(66, 99, 235, 0.5);
+    --accent-disables-dark: #283e97 opacity 0.5;
 
      /** Фон тела страницы компонента, карточек */
 
@@ -29,17 +29,17 @@
     /** Фон карточек */
 
     --informative-light: #fff;
-    --informative-dark: #ACB5BD;
+    --informative-dark: #899197;
 
     /** Контур */
     
     --define-light: 1px solid #ACB5BD;
-    --define-dark: 1px solid #5028C6;
+    --define-dark: 1px solid #2f157c;
 
     /**  
     Заливка линий скелетона
     */
     
     --waiting-light: gray;
-    --waiting-dark: gray;
+    --waiting-dark: #001c54;
 }
