@@ -1,0 +1,14 @@
+.header
+{
+    display: flex;
+}
+
+.header__title
+{
+    font-size: 50px;
+    padding-top: 96px;
+    padding-bottom: 77px;
+    padding-left: 20px;
+    margin: 0;
+}
+
