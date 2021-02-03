@@ -1,0 +1,43 @@
+.images
+    {
+        background-image: url(public/forest_400.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+
+@media screen and (min-width: 768px)
+{
+    .images
+    {
+        background-image: url(public/forest_768.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .images
+    {
+        background-image: url(public/forest_1024.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 2560px)
+{
+    .images
+    {
+        background-image: url(public/forest_2560.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+

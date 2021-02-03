@@ -1,0 +1,211 @@
+diff --git a/05-lection3/03-calendar/README.md b/05-lection3/03-calendar/README.md
+new file mode 100644
+index 0000000..60eec13
+--- /dev/null
++++ b/05-lection3/03-calendar/README.md
+@@ -0,0 +1,7 @@
++# Календарь
++
++figma: [https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/CSS-Course?node-id=17325%3A248](https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/CSS-Course?node-id=17325%3A248)
++
++Подробно обсудили этот блок на лекции, основные требования к календарю:
++- надо сверстать на гридах
++- должен быть резиновым - при увеличении ширины блока он должен сохранять пропорции, не должен разваливаться
+diff --git a/05-lection3/03-calendar/calendar.css b/05-lection3/03-calendar/calendar.css
+new file mode 100644
+index 0000000..e69de29
+diff --git a/05-lection3/03-calendar/index.html b/05-lection3/03-calendar/index.html
+new file mode 100644
+index 0000000..1ef5afa
+--- /dev/null
++++ b/05-lection3/03-calendar/index.html
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<!-- Страница с календарем -->
++<html lang="ru">
++    <head>
++        <link rel="stylesheet" href="../../assets/css/main.css">
++        <link rel="stylesheet" href="./calendar.css">
++        <title>Calendar</title>
++    </head>
++    <body>
++
++    </body>
++</html>
+diff --git a/05-lection3/03-calendar/test/solution.test.js b/05-lection3/03-calendar/test/solution.test.js
+new file mode 100644
+index 0000000..4a38421
+--- /dev/null
++++ b/05-lection3/03-calendar/test/solution.test.js
+@@ -0,0 +1,7 @@
++const expect = require('chai').expect;
++
++describe('lection3/calendar', () => {
++  it('Календарь', () => {
++    expect(1).to.equal(1);
++  });
++});
+diff --git a/06-lection4/01-avatar/README.md b/06-lection4/01-avatar/README.md
+new file mode 100644
+index 0000000..0971c91
+--- /dev/null
++++ b/06-lection4/01-avatar/README.md
+@@ -0,0 +1,9 @@
++# Avatar
++
++Аватарка - неотъемлимая часть любого сайта, где есть профиль пользователя.<br>
++Этот компонент выглядит несложно, но надо обратить внимание на то, что пользователи загружают картинки в разных размерах, с разным соотношением сторон, а на странице эта картинка не должна сжиматься, или наоборот, оставлять пустое пространство в контейнере.<br>
++Еще одно требование - возможность сохранить аватарку через пкм.
++Не забудьте про атрибут `alt` :)
++
++## object-fit
++Возможно, вам будет полезно свойство `object-fit`, которое определяет как содержимое тегов `img` или `video` должно заполнять контейнер относительно его высоты и ширины.
+diff --git a/06-lection4/01-avatar/avatar.css b/06-lection4/01-avatar/avatar.css
+new file mode 100644
+index 0000000..e69de29
+diff --git a/06-lection4/01-avatar/index.html b/06-lection4/01-avatar/index.html
+new file mode 100644
+index 0000000..cf60a22
+--- /dev/null
++++ b/06-lection4/01-avatar/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<!-- Страница с аватаром -->
++<html lang="ru">
++    <head>
++        <link rel="stylesheet" href="../../assets/css/main.css">
++        <link rel="stylesheet" href="./avatar.css">
++    </head>
++    <body>
++
++    </body>
++</html>
+diff --git a/06-lection4/01-avatar/public/avatar-200.jpg b/06-lection4/01-avatar/public/avatar-200.jpg
+new file mode 100644
+index 0000000..c163202
+Binary files /dev/null and b/06-lection4/01-avatar/public/avatar-200.jpg differ
+diff --git a/06-lection4/01-avatar/test/solution.test.js b/06-lection4/01-avatar/test/solution.test.js
+new file mode 100644
+index 0000000..002f345
+--- /dev/null
++++ b/06-lection4/01-avatar/test/solution.test.js
+@@ -0,0 +1,7 @@
++const expect = require('chai').expect;
++
++describe('lection4/avatar', () => {
++  it('Аватарка', () => {
++    expect(1).to.equal(1);
++  });
++});
+diff --git a/06-lection4/02-background-image/README.md b/06-lection4/02-background-image/README.md
+new file mode 100644
+index 0000000..80f56fd
+--- /dev/null
++++ b/06-lection4/02-background-image/README.md
+@@ -0,0 +1,7 @@
++# background-image
++
++В директории `public` лежат картинки в нескольких разрешениях.<br>
++Нужно вставить картинку на фон страницы так, чтобы не грузились картинки избыточного размера.<br>
++
++Воспользоваться нужно способом вставки картинки через `background-image` и медиа-запросы.
++
+diff --git a/06-lection4/02-background-image/background-image.css b/06-lection4/02-background-image/background-image.css
+new file mode 100644
+index 0000000..e69de29
+diff --git a/06-lection4/02-background-image/index.html b/06-lection4/02-background-image/index.html
+new file mode 100644
+index 0000000..7a10fca
+--- /dev/null
++++ b/06-lection4/02-background-image/index.html
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="ru">
++    <head>
++        <link rel="stylesheet" href="../../assets/css/main.css">
++        <link rel="stylesheet" href="./background-image.css">
++    </head>
++    <body>
++
++    </body>
++</html>
+diff --git a/06-lection4/02-background-image/public/forest_1024.jpg b/06-lection4/02-background-image/public/forest_1024.jpg
+new file mode 100644
+index 0000000..45913b7
+Binary files /dev/null and b/06-lection4/02-background-image/public/forest_1024.jpg differ
+diff --git a/06-lection4/02-background-image/public/forest_2560.jpg b/06-lection4/02-background-image/public/forest_2560.jpg
+new file mode 100644
+index 0000000..5290f45
+Binary files /dev/null and b/06-lection4/02-background-image/public/forest_2560.jpg differ
+diff --git a/06-lection4/02-background-image/public/forest_400.jpg b/06-lection4/02-background-image/public/forest_400.jpg
+new file mode 100644
+index 0000000..a79014c
+Binary files /dev/null and b/06-lection4/02-background-image/public/forest_400.jpg differ
+diff --git a/06-lection4/02-background-image/public/forest_768.jpg b/06-lection4/02-background-image/public/forest_768.jpg
+new file mode 100644
+index 0000000..5d7a834
+Binary files /dev/null and b/06-lection4/02-background-image/public/forest_768.jpg differ
+diff --git a/06-lection4/02-background-image/test/solution.test.js b/06-lection4/02-background-image/test/solution.test.js
+new file mode 100644
+index 0000000..f24f0b3
+--- /dev/null
++++ b/06-lection4/02-background-image/test/solution.test.js
+@@ -0,0 +1,7 @@
++const expect = require('chai').expect;
++
++describe('lection4/background-image', () => {
++  it('Фон', () => {
++    expect(1).to.equal(1);
++  });
++});
+diff --git a/06-lection4/03-srcset/README.md b/06-lection4/03-srcset/README.md
+new file mode 100644
+index 0000000..d9d9d97
+--- /dev/null
++++ b/06-lection4/03-srcset/README.md
+@@ -0,0 +1,5 @@
++# srcset
++
++В директории `public` лежат картинки в нескольких разрешениях.<br>
++Нужно вставить на страницу квадратный блок 300x300, а в него вписать картинку так, чтобы для экранов с высокой плотностью пикселей загружалась картинка в 2 раза больше.<br>
++
+diff --git a/06-lection4/03-srcset/index.html b/06-lection4/03-srcset/index.html
+new file mode 100644
+index 0000000..6d5ab43
+--- /dev/null
++++ b/06-lection4/03-srcset/index.html
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="ru">
++    <head>
++        <link rel="stylesheet" href="../../assets/css/main.css">
++        <link rel="stylesheet" href="./srcset.css">
++    </head>
++    <body>
++
++    </body>
++</html>
+diff --git a/06-lection4/03-srcset/public/forest_400.jpg b/06-lection4/03-srcset/public/forest_400.jpg
+new file mode 100644
+index 0000000..a79014c
+Binary files /dev/null and b/06-lection4/03-srcset/public/forest_400.jpg differ
+diff --git a/06-lection4/03-srcset/public/forest_768.jpg b/06-lection4/03-srcset/public/forest_768.jpg
+new file mode 100644
+index 0000000..5d7a834
+Binary files /dev/null and b/06-lection4/03-srcset/public/forest_768.jpg differ
+diff --git a/06-lection4/03-srcset/srcset.css b/06-lection4/03-srcset/srcset.css
+new file mode 100644
+index 0000000..e69de29
+diff --git a/06-lection4/03-srcset/test/solution.test.js b/06-lection4/03-srcset/test/solution.test.js
+new file mode 100644
+index 0000000..a05e0b5
+--- /dev/null
++++ b/06-lection4/03-srcset/test/solution.test.js
+@@ -0,0 +1,7 @@
++const expect = require('chai').expect;
++
++describe('lection4/srcset', () => {
++  it('Srcset', () => {
++    expect(1).to.equal(1);
++  });
++});
