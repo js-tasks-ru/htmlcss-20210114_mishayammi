@@ -80,3 +80,13 @@ body, html
 }
 
 
+.cancel-icon
+{
+    width: 12px;
+    height: 12px;
+}
+
+.icon-box
+{
+    display: none;
+}

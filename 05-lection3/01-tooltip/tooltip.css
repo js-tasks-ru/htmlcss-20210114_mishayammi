@@ -13,12 +13,6 @@ body
     justify-content: center;
 }
 
-object
-{
-    width: 22px;
-    height: 22px;
-}
-
 .dropdown
 {
     position: relative;
@@ -31,7 +25,7 @@ object
     height: 22px;
     border-radius: 50px;
     position: relative;
-    bottom: 67px;
+    bottom: -15px;
 }   
 
 .dropdown__menu
@@ -51,9 +45,10 @@ object
 {
     content: "";
     border: 14px solid transparent;
-    border-bottom: 6px solid var(--accent-light);
+    border-top: 8px solid var(--accent-light);
     position: absolute;
     left: 50%;
+    bottom: -90%;
     transform: translate(-50%, -100%);
 }
 
@@ -62,4 +57,16 @@ object
     visibility: visible;
     opacity: 1;
     transition: .3s linear;
+}
+
+.question-icon
+
+{
+    width: 22px;
+    height: 22px;
+}
+
+.icon-box
+{
+    display: none;
 }

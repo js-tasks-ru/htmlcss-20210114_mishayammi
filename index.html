@@ -7,9 +7,36 @@
         <link rel="stylesheet" href="./components/footer/footer.css">
         <link rel="stylesheet" href="./components/card/card.css">
         <link rel="stylesheet" href="./pages/page.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header class="page header">
+            <div class="page__logo">
+                <svg class="icon-box">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="square-icon">
+                      <path d="M0 0h60v60H0z"></path>
+                    </symbol>
+                  </svg>
+                  <svg class="square-icon">
+                    <use xlink:href="#square-icon"></use>
+                  </svg>
+                  <svg class="icon-box">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="circle-icon">
+                        <path d="M256 0C115.39 0 0 115.39 0 256s115.39 256 256 256 256-115.39 256-256S396.61 0 256 0z"></path>
+                    </symbol>
+                  </svg>
+                <svg class="circle-icon">
+                    <use xlink:href="#circle-icon"></use>
+                  </svg>
+                  <svg class="icon-box">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" id="triangle-icon">
+                        <path d="M490 474.459H0L245.009 15.541 490 474.459z"></path>
+                    </symbol>
+                  </svg>
+                <svg class="triangle-icon">
+                    <use xlink:href="#triangle-icon"></use>
+                  </svg>
+            </div>
             <h1 class="header__title">Заголовок</h1>
         </header>
         <div class="container-main">
@@ -38,3 +65,4 @@
         </footer>
     </body>
 </html>
+

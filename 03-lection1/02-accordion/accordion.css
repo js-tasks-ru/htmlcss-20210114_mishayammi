@@ -11,13 +11,13 @@
     background: var(--main-light);
     border: var(--define-light);
     margin-bottom: 8px;
-    padding: 8px;
-    font-size: 16px;
+    padding: 8px 32px 8px 32px;
+    font-size: 14px;
 }
 
 .accordion__summary
 {
-    font-size: 20px;
+    display: flex;
 }
 
 .accordion__item:last-child 
@@ -27,8 +27,33 @@
 
 .accordion__summary::-webkit-details-marker
 {  
+   display: none;
+}
+
+.icon-box
+{
     display: none;
 }
+
+.summary__title
+
+{
+    font-size: 16px;
+    width: 95%;
+}
+
+.summary__icon
+{
+    width: 5%;
+}
+
+.arrow
+{
+    width: 16px;
+    height: 8px;
+}
+
+
 
 
 

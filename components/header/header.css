@@ -1,6 +1,7 @@
 .header
 {
     display: flex;
+    flex-direction: column;
 }
 
 .header__title
@@ -12,3 +13,57 @@
     margin: 0;
 }
 
+.page__logo
+{
+    height: 32px;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.square-icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.circle-icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.triangle-icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.icon-box
+{
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+
+
+@media screen and (max-width: 440px)
+{
+
+    .header__title
+
+    {
+    font-size: 24px;
+    padding-top: 49px;
+    padding-bottom: 69px;
+    padding-left: 16px;
+    margin: 0;
+    }
+}
