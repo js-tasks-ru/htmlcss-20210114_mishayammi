@@ -1,16 +1,5 @@
-@import './normalize.css';
-@import '../fonts/fonts.css';
 
-
-body, html
-{
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-}
-
-
-.button-box
+.modal__button-box
 {
     position: relative;
     top: 10%;
@@ -31,13 +20,14 @@ body, html
 
 
 .modal__content
+
 {
     width: 428px;
-    height: 294px;
+    max-width: 100vw;
+    height: fit-content;
+    max-height: 100vh;
+    overflow-y: auto;
     border-radius: 8px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: var(--main-light);
     position: absolute;
     top: 0;
@@ -50,7 +40,6 @@ body, html
 
 .modal__top
 {
-    height: 10%;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -65,28 +54,32 @@ body, html
     background-color: transparent;
 }
 
-.modal__title
-{
-    height: auto;
-    margin: 0 auto 0 40px;
-    font-size: 20px;
-}
-
-.modal__text
-{
-    height: auto;
-    margin: 14px 40px 33px 40px;
-    font-size: 16px;
-}
-
-
-.cancel-icon
+.modal__cancel-icon
 {
     width: 12px;
     height: 12px;
 }
 
-.icon-box
+.modal__icon-box
 {
     display: none;
 }
+
+.modal__info
+
+{
+    padding: 0 40px 33px 40px;
+}
+
+.modal__info-title
+{
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.modal__info-text
+{
+    font-size: 16px;
+}
+
+

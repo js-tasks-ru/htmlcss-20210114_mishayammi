@@ -20,12 +20,12 @@ border-radius: 8px;
 {
  font-size: 20px;
  text-align: center;
+ margin-bottom: 24px;
 }
 
 .calendar__wrapper
 {
 padding-bottom: 100%;
-margin-top: 24px;
 position: relative;
 }
 

@@ -7,7 +7,7 @@ html, body
     width: 100%;
 }
 
-.page
+.compononets-page
 {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -16,17 +16,17 @@ html, body
     background-color: var(--secondary-light);
 }
 
-.page__main
+.compononets-page__main
 {
     display: grid;
     grid-template-columns: auto 1fr;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1110px;
     column-gap: 56px;
     margin-left: 165px;
 }
 
-.page__header
+.compononets-page__header
 {
     height: 82px;
     background-color: var(--main-light);
@@ -35,46 +35,13 @@ html, body
     align-items: center;
 }
 
-.icon-box
-{
-    width: 32px;
-    height: 32px;
-    display: none;
-}
-
-.page__logo
+.compononets-page__logo
 {
     height: 32px;
 }
 
 
-.square-icon
-{
-    width: 32px;
-    height: 32px;
-    margin-left: 4px;
-    margin-right: 4px;
-}
-
-.circle-icon
-{
-    width: 32px;
-    height: 32px;
-    margin-left: 4px;
-    margin-right: 4px;
-}
-
-.triangle-icon
-{
-    width: 32px;
-    height: 32px;
-    margin-left: 4px;
-    margin-right: 4px;
-}
-
-
-
-.page__footer
+.compononets-page__footer
 {
     height: 130px;
     display: flex;
@@ -83,14 +50,14 @@ html, body
     text-transform: uppercase;
 }
 
-.component
+.compononets-page__component
 {
    background-color: var(--informative-light);
    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
    border-radius: 12px;
 }
 
-.menu
+.compononets-page__menu
 {
     width: 229px;
     background-color: var(--secondary-light);
@@ -98,45 +65,45 @@ html, body
     flex-direction: column;
 }
 
-.menu__title
+.compononets-page__menu-title
 {
     font-size: 20px;
     margin-bottom: 16px;
 }
 
-.menu__item
+.compononets-page__menu-item
 {
     font-size: 14px;
     margin-bottom: 4px;
 }
 
-.menu__item:last-child
+.compononets-page__menu-item:last-child
 {
     margin-top: 30px;
 }
 
 @media screen and (max-width: 440px)
 {
-    .menu
+    .compononets-page__menu
     {
         display: none;
     }
 
   
-    .page__main
+    .compononets-page__main
     {
         display: grid;
         grid-template-columns: auto;
         margin-left: 0;
     }
     
-    .component
+    .compononets-page__component
     {
         box-shadow: 0;
         border-radius: 0;
     }
 
-    .page__footer
+    .compononets-page__footer
     {
         font-size: 14px;
     }
