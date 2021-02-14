@@ -22,13 +22,30 @@
     justify-content: center;
 }
 
+
+
+@media screen and (max-width: 786px)
+
+{
+    .header__title
+
+    {
+    font-size: 40px;
+    padding-top: 49px;
+    padding-bottom: 69px;
+    padding-left: 16px;
+    margin: 0;
+    }
+}
+
+
 @media screen and (max-width: 440px)
 {
 
     .header__title
 
     {
-    font-size: 24px;
+    font-size: 28px;
     padding-top: 49px;
     padding-bottom: 69px;
     padding-left: 16px;

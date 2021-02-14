@@ -18,6 +18,36 @@
     width: 640px;
 }
 
+h2
+{
+    font-size: 38px; 
+}
+
+
+@media screen and (max-width: 786px)
+
+{
+
+    h2
+    {
+        font-size: 28px;
+    }
+
+    .footer__paragraph
+    {
+        margin: auto;
+        padding-bottom: 36px;
+        width: 340px;
+    }
+
+    .footer__title
+    {
+        padding-top: 32px;
+        margin: auto;
+    }
+
+}
+
 @media screen and (max-width: 440px)
 
 {
@@ -25,9 +55,6 @@
     {
         font-size: 20px;
     }
-
-    /** Для себя заметка. Что-то перебивает стиль. Поискать еще.*/
-
 
     .footer__paragraph
     {

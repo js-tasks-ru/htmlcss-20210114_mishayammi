@@ -29,10 +29,18 @@ margin: 15px;
 }
 
 
-@media screen and (max-width: 440px)
+@media screen and (max-width: 1280px)
+{
+    .container-main
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 786px)
 
 {
-    
     .container-flex
 
     {
@@ -53,8 +61,38 @@ margin: 15px;
     .container-main
    
     {
-        padding-top: 6px;
         height: auto;
-        padding-bottom: 40px;
+        padding: 6px 0 40px 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 440px)
+
+{
+    .container-flex
+
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -8px;
+        padding: 16px;
+    }
+    
+    .container-flex__card
+
+    {
+        flex-basis: 164px;
+        height: 210px;
+        margin: 8px;
+    }
+
+    .container-main
+   
+    {
+        height: auto;
+        padding: 6px 0 40px 0;
     }
 }
