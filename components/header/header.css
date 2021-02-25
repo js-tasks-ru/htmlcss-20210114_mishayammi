@@ -1,6 +1,7 @@
 .header
 {
     display: flex;
+    flex-direction: column;
 }
 
 .header__title
@@ -12,3 +13,42 @@
     margin: 0;
 }
 
+.header__logo
+{
+    height: 32px;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 786px)
+
+{
+    .header__title
+
+    {
+    font-size: 40px;
+    padding-top: 49px;
+    padding-bottom: 69px;
+    padding-left: 16px;
+    margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 440px)
+{
+
+    .header__title
+
+    {
+    font-size: 28px;
+    padding-top: 49px;
+    padding-bottom: 69px;
+    padding-left: 16px;
+    margin: 0;
+    }
+}

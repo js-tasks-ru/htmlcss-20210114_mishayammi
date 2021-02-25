@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="../assets/css/components-page.css">
+    <link rel="stylesheet" href="../components/svg-sprite/svg-sprite.css">
+    <link rel="stylesheet" href="../pages/page.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg class="svg-sprite">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" id="svg-sprite__square-icon">
+        <path d="M0 0h60v60H0z"></path>
+      </symbol>
+    </svg>
+    <svg class="svg-sprite">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="svg-sprite__circle-icon">
+          <path d="M256 0C115.39 0 0 115.39 0 256s115.39 256 256 256 256-115.39 256-256S396.61 0 256 0z"></path>
+      </symbol>
+    </svg>
+    <svg class="svg-sprite">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" id="svg-sprite__triangle-icon">
+          <path d="M490 474.459H0L245.009 15.541 490 474.459z"></path>
+      </symbol>
+    </svg>
+    <div class="compononets-page">
+        <div class="compononets-page__header">
+            <div class="compononets-page__logo">
+                  <svg class="svg-sprite__square-icon">
+                    <use xlink:href="#svg-sprite__square-icon"></use>
+                  </svg>
+                <svg class="svg-sprite__circle-icon">
+                    <use xlink:href="#svg-sprite__circle-icon"></use>
+                  </svg>
+                <svg class="svg-sprite__triangle-icon">
+                    <use xlink:href="#svg-sprite__triangle-icon"></use>
+                  </svg>
+            </div>
+        </div>
+        <div class="compononets-page__main">
+            <div class="compononets-page__menu">
+                <div class="compononets-page__menu-title">Components</div>
+                <a class="compononets-page__menu-item">Modal</a>
+                <a class="compononets-page__menu-item">Tooltip</a>
+                <a class="compononets-page__menu-item">Avatar</a>
+                <a class="compononets-page__menu-item">Calendar</a>
+                <a class="compononets-page__menu-item">Histogram</a>
+                <a class="compononets-page__menu-item">Custom form elements</a>
+                <a class="compononets-page__menu-item">Main page</a>
+            </div>
+            <div class="compononets-page__component"></div>
+        </div>    
+        <div class="compononets-page__footer">
+            <p>Reusable component library</p>
+        </div>    
+    </div>
+</body>
+</html>
+

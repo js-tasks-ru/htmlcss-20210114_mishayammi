@@ -1,0 +1,49 @@
+.svg-sprite
+{
+    display: none;
+}
+
+.svg-sprite__square-icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.svg-sprite__circle-icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.svg-sprite__triangle-icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+.svg-sprite__arrow-icon
+{
+    width: 16px;
+    height: 8px;
+}
+
+.svg-sprite__question-icon
+
+{
+    width: 22px;
+    height: 22px;
+}
+
+.svg-sprite__cancel-icon
+{
+    width: 10px;
+    height: 10px;
+    color: #495057;
+}

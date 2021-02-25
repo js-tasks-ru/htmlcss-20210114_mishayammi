@@ -1,0 +1,129 @@
+@import './normalize.css';
+@import '../fonts/fonts.css';
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.compononets-page
+{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    row-gap: 36px;
+    background-color: var(--secondary-light);
+}
+
+.compononets-page__main
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    max-width: 1110px;
+    column-gap: 56px;
+}
+
+.compononets-page__header
+{
+    height: 82px;
+    background-color: var(--main-light);
+    display: flex;
+}
+
+.compononets-page__logo
+{
+    height: 32px;
+    margin: auto;
+    
+}
+
+
+.compononets-page__footer
+{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.compononets-page__component
+{
+   background-color: var(--informative-light);
+   box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+   border-radius: 12px;
+   margin-right: 56px;
+}
+
+.compononets-page__menu
+{
+    width: 229px;
+    background-color: var(--secondary-light);
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+}
+
+.compononets-page__menu-title
+{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.compononets-page__menu-item
+{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.compononets-page__menu-item:last-child
+{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 468px)
+{
+    .compononets-page__menu
+    {
+        display: none;
+    }
+
+  
+    .compononets-page__main
+    {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0;
+    }
+    
+    .compononets-page__component
+    {
+        box-shadow: 0;
+        border-radius: 0;
+        margin-right: 0;
+    }
+
+    .compononets-page__footer
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+
+{
+    .compononets-page__menu
+    {
+        margin-left: 28px;
+        width: 140px;
+    }
+    
+    .compononets-page__main
+    {
+        column-gap: 28px;
+    }
+
+}
+

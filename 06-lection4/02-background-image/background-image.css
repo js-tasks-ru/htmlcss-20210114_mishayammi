@@ -1,0 +1,41 @@
+.wrapper
+{
+ height: 400px;
+}
+
+.images
+{
+    background: url(public/forest_400.jpg) no-repeat;;
+    height: 100%;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px)
+{
+    .images
+    {
+        background-image: url(public/forest_768.jpg);
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .images
+    {
+        background-image: url(public/forest_1024.jpg);
+    }
+}
+
+@media screen and (min-width: 2560px)
+{
+    .images
+    {
+        background-image: url(public/forest_2560.jpg);
+    }
+}
+
+
+
+
+
+
